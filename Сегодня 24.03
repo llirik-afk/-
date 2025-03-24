@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+// display a number
+void displayNum(int n1, float n2) {
+    cout  << "Введите целое число" << n1 << endl;
+    cout<<  "Введите действительное число"<< n2 << endl;
+
+}
+float rus(floatx1, floatx2){
+cout<<"введите целое число"<< x1 <<endl;
+cout<<"введите действительное число"<< x2 <<endl;
+return (x1 - x2);
+}
+int main() {
+    int num1 = 5;
+    double num2 = 5.5;
+    double s;
+    s =sum(num1, num2);
+    // calling the function
+ cout << s;
+ 
+    return 0;
+}
